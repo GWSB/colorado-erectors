@@ -1,8 +1,8 @@
 import VueRouter from 'vue-router';
-import Home from './views/components/Home'
-import Gallery from './views/components/Gallery'
-import About from './views/components/About'
-import Contact from './views/components/Contact'
+import Home from './views/Home'
+import Gallery from './views/Gallery'
+import About from './views/About'
+import Contact from './views/Contact'
 
 
 

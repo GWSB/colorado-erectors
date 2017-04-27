@@ -1,6 +1,7 @@
 import './bootstrap.js'
 
-import App from './views/App.vue'
+import Navigation from './views/components/global/Navigation'
+import GreatFooter from './views/components/global/GreatFooter'
 import router from './routes'
 
 
@@ -8,6 +9,7 @@ new Vue({
     el: '#app',
     router,
     components: {
-        App
+      Navigation,
+      GreatFooter
     }
 });

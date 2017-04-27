@@ -45,13 +45,9 @@
     </head>
     <body>
         <div id=app>
-          {{-- <router-link to="/" tag="li" active-class="active" exact><a>Home</a></router-link>
-          <router-link to="/gallery" tag="li" active-class="active"><a>Gallery</a></router-link>
-          <router-link to="/about" tag="li" active-class="active"><a>About</a></router-link>
-          <router-link to="/contact" tag="li" active-class="active"><a>Contact</a></router-link> --}}
-          {{-- <navigation></navigation>
-          <router-view></router-view> --}}
-          <app></app>
+          <navigation></navigation>
+          <router-view></router-view>
+          <great-footer></great-footer>
         </div>
 
         <script src="/js/app.js"></script>
