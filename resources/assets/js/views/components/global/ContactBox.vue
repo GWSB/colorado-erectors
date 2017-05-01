@@ -4,12 +4,12 @@
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <h2>Get In Touch</h2>
-          <form class="form-horizontal" action="#" method="post">
+          <form class="form-horizontal" action="/contact" method="POST">
             <div class="form-group">
               <input type="text" class="form-control" name="name" placeholder="Your name">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="number" placeholder="Your phone number">
+              <input type="tel" class="form-control" name="number" placeholder="Your phone number">
             </div>
             <div class="form-group">
               <input type="email" class="form-control" name="email" placeholder="Your email">

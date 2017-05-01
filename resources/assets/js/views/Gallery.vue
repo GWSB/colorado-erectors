@@ -1,8 +1,8 @@
 <template>
     <div class="home">
-        <jumbo header="Beavers Erection Visuals!"></jumbo>
+        <jumbo header="Gallery"></jumbo>
         <lightbox src="src/assets/logo.png" caption="this is pic caption" album="albumA"></lightbox>
-        <home-main></home-main>
+        <gallery-main></gallery-main>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
@@ -18,7 +18,7 @@
 
 <script>
     import Jumbo from './components/pages/home/Jumbo.vue'
-    import HomeMain from './components/pages/home/HomeMain.vue'
+    import GalleryMain from './components/pages/gallery/GalleryMain.vue'
     import ContactBox from './components/global/ContactBox.vue'
     import ContactText from './components/pages/home/ContactText.vue'
     export default {
@@ -30,7 +30,7 @@
       },
       components: {
           Jumbo,
-          HomeMain,
+          GalleryMain,
           ContactBox,
           ContactText
       }

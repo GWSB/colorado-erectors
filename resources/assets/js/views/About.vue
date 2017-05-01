@@ -1,7 +1,7 @@
 <template>
     <div class="home">
-        <jumbo header="About Erections by Beavers!"></jumbo>
-        <home-main></home-main>
+        <jumbo header="About Us"></jumbo>
+        <about-main></about-main>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
@@ -17,7 +17,7 @@
 
 <script>
     import Jumbo from './components/pages/home/Jumbo.vue'
-    import HomeMain from './components/pages/home/HomeMain.vue'
+    import AboutMain from './components/pages/about/AboutMain.vue'
     import ContactBox from './components/global/ContactBox.vue'
     import ContactText from './components/pages/home/ContactText.vue'
     export default {
@@ -29,7 +29,7 @@
       },
       components: {
           Jumbo,
-          HomeMain,
+          AboutMain,
           ContactBox,
           ContactText
       }

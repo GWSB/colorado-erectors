@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome', [
-      'name' => 'World'
-    ]);
+    return view('welcome');
 });
+
+Route::post('/contact', 'ContactController@store');
