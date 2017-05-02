@@ -17,11 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/contact', function () {
+Route::get('/contact', 'ContactController@index');
 
-  $contacts = DB::table('contacts')->get();
-
-  return view('contact', compact('contacts'));
-});
+Route::get('/contact/{contact}', 'ContactController@show');
 
 Route::post('/contact', 'ContactController@store');
