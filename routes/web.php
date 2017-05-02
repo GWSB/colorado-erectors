@@ -11,8 +11,17 @@
 |
 */
 
+use App\Contact;
+
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/contact', function () {
+
+  $contacts = DB::table('contacts')->get();
+
+  return view('contact', compact('contacts'));
 });
 
 Route::post('/contact', 'ContactController@store');
